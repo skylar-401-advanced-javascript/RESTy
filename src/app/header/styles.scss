@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+header {
+  @include headerAndFooter($darkBlue, $ultraLightGrey, 4rem);
+  padding: 0 2rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}

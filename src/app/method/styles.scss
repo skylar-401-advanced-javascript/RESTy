@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+
+.method {
+  margin-right: 1rem;
+  
+  input[type=radio] {
+    display: none;
+  }
+  
+  label {
+    cursor: pointer;
+    padding: 0.25rem 1rem;
+  }
+
+  input[type=radio]:checked ~ label {
+    background-color: $lightBlue;
+    color: $ultraLightGrey;
+  }
+}
+
